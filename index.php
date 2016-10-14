@@ -16,7 +16,7 @@ panel_menu();
 							<li><label>Płeć: </label>Mężczyzna</li>
 							<li><label>Rasa: </label>Człowiek</li>
 							<li><label>Klasa: </label>Web Developer</li>
-							<li><label>Poziom (wiek): </label>26</li>
+							<li><label>Poziom (wiek): </label><?php echo $wiek; ?></li>
 							<li><label>Charakter: </label>Praworządny neutralny</li>
 							<li><label>Lokalizacja: </label>Bulowice</li>
 						</ul>

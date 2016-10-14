@@ -1,4 +1,5 @@
 <?php
+//otwarcie html
 function html_open() {
 ?>
 <!DOCTYPE HTML>
@@ -19,6 +20,7 @@ function html_open() {
 <?php
 }
 
+//otwarcie html dla podstron (bez indeksowania)
 function html_open_noindex() {
 ?>
 <!DOCTYPE HTML>
@@ -40,6 +42,7 @@ function html_open_noindex() {
 <?php
 }
 
+//wyswietlenie menu
 function menu_gora($tytul) {
 ?>
 			<div id="menu-gora">
@@ -55,6 +58,10 @@ function menu_gora($tytul) {
 <?php
 }
 
+//ustalenie mojego wieku
+$wiek = date("Y") - 1989;
+
+//wyswietlenie panelu lewego
 function panel_menu() {
 ?>			
 			<div class="panel menu-bok">
@@ -63,7 +70,7 @@ function panel_menu() {
 					<img src="pliki/avatar2.png" alt="avatar" />
 				</div>
 				<ul>
-					<li><label>Poziom: </label>26</li>
+					<li><label>Poziom: </label><?php echo $GLOBALS['wiek']; ?></li>
 					<li><label>Klasa: </label>Web Developer</li>
 					<li><label>Doświadczenie:</label></li>
 					<li class="pasek exp">35%</li>
@@ -76,6 +83,7 @@ function panel_menu() {
 <?php
 }
 
+//wyswietlenie panelu prawego
 function panel_widgety() {
 ?>				
 			<div class="panel widgety">
@@ -90,6 +98,7 @@ function panel_widgety() {
 <?php
 }
 
+//zamknięcie html
 function html_close() {
 ?>	
 		<div style="clear: both"></div>	
