@@ -37,7 +37,7 @@ panel_menu();
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>jQuery</li>
-						<li>ReactJS</li>
+                                                <li>Symfony</li>
 						<li>PHP</li>
 						<li>MySQL</li>
 						<li>Git</li>
@@ -46,6 +46,7 @@ panel_menu();
 						<li>Grafika wektorowa</li>
 						<li>Język angielski</li>
 						<li>Język niemiecki</li>
+                                                <li>ReactJS</li>
 					</ul>
 					<p><a href="skills.php">+ WIĘCEJ</a></p>
 					<span class="tooltip-hide">- kliknij by zwinąć</span>
@@ -86,6 +87,8 @@ panel_menu();
 				<div class="tooltip t-osia">
 					<ul>
 						<li><label><a href="http://www.milosz-kusak.pl">www.milosz-kusak.pl</a></label></li>
+						<li><label><a href="http://www.milosz-kusak.pl/kreator_cv">www.milosz-kusak.pl/kreator_cv</a></label></li>
+						<li><label><a href="http://www.milosz-kusak.pl/domowy-budzet/web/budzet">www.milosz-kusak.pl/domowy-budzet/web/budzet</a></label></li>
 						<li><label><a href="http://www.joannaczarnik.cba.pl">www.joannaczarnik.cba.pl</a></label></li>
 						<li><label><a href="http://www.photosd.webd.pl/arabic2roman">www.photosd.webd.pl/arabic2roman</a></label></li>
 					</ul>
